@@ -1,0 +1,145 @@
+#info .info__title span.maintitle {
+	display: block;
+	font-size: 40px;
+	font-family: "M+ Type-1 (general-j) Regular";
+}
+
+#info .info__title span.subhead {
+	display: block;
+	padding: 28px 0 0 0;
+}
+
+#info .info__maincontents .box {
+	margin: 30px 0 0 30px;
+	width: 680px;
+	border: solid lightsteelblue 2px;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+#info .info__maincontents .box .contents {
+	padding: 26px 0 26px 0;
+	text-align: center;
+}
+
+#info .info__maincontents .box .contents .text {
+	line-height: 1.6;
+}
+
+#info .info__maincontents .box .contents .text span.en {
+	font-family: "M+ P Type-1 (basic latin) Regular";
+}
+
+#info .info__maincontents .box .contents .text span.jp {
+	font-family: "M+ Type-1 (general-j) Regular";
+}
+
+#info .info__maincontents .box .contents .text.autor {
+	padding: 0 0 22px 0;
+}
+
+#info .info__maincontents .box .contents .text.autor .name {
+	font-size: 22px;
+}
+
+#info .info__maincontents .box .contents .text.description {
+	padding: 0 0 12px 0;
+}
+
+#info .info__maincontents .box .contents .image {
+	margin: 0 0 6px 0;
+}
+
+#info .info__maincontents .box .subhead {
+	margin: 0 auto;
+	width: 650px;
+	height: 28px;
+	background-color: lightsteelblue;
+	line-height: 28px;
+	font-size: 20px;
+}
+
+#info .info__maincontents .box .subhead .text {
+	color: #FFF;
+	padding: 0 16px;
+}
+
+@media screen and (max-width: 640px) {
+
+#info .info__title span.maintitle {
+	display: block;
+	font-size: 30px;
+	font-family: "M+ Type-1 (general-j) Regular";
+}
+
+#info .info__title span.subhead {
+	display: block;
+	padding: 28px 0 0 0;
+}
+
+#info .info__maincontents {
+	margin: 0 0 10px 0;
+}
+
+#info .info__maincontents .box {
+	margin: 0;
+	width: 300px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: solid lightsteelblue 2px;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+#info .info__maincontents .box .contents {
+	padding: 26px 0 26px 0;
+	text-align: center;
+}
+
+#info .info__maincontents .box .contents .text {
+	line-height: 1.6;
+	font-size: 13px;
+}
+
+#info .info__maincontents .box .contents .text span.en {
+	font-family: "M+ P Type-1 (basic latin) Regular";
+}
+
+#info .info__maincontents .box .contents .text span.jp {
+	font-family: "M+ Type-1 (general-j) Regular";
+}
+
+#info .info__maincontents .box .contents .text.autor {
+	padding: 0 0 10px 0;
+	font-size: 16px;
+}
+
+#info .info__maincontents .box .contents .text.autor .name {
+	font-size: 20px;
+}
+
+#info .info__maincontents .box .contents .text.description {
+	padding: 0 10px 10px 10px;
+	text-align: left;
+	font-size: 13px;
+}
+
+#info .info__maincontents .box .contents .image {
+	margin: 0 0 6px 0;
+}
+
+#info .info__maincontents .box .subhead {
+	margin: 0 auto;
+	width: 100%;
+	height: 28px;
+	background-color: lightsteelblue;
+	line-height: 28px;
+	font-size: 20px;
+}
+
+#info .info__maincontents .box .subhead .text {
+	color: #FFF;
+	padding: 0 16px;
+}
+
+}
+

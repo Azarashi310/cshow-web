@@ -1,0 +1,20 @@
+extends ../template/template
+block vars
+   -var dir_root = "../"
+   -var current = "other"
+   -var title = "頂いたもの"
+block content
+   #other
+      h2.other__title
+         span.maintitle 頂いたもの
+         span.subhead ありがとうございます！
+      .other__maincontents
+         p.text
+            span.en cornet
+            span.jp さんからの素敵なアイコン集。
+         ul.lists
+            - for (var i = 1; i < 10; i++) {
+            li.list
+               a.link(href="images/thum_" + "#{i}" + ".png", target="_blank")
+                  img(src="images/thum_" + "#{i}" + ".png")
+               - }

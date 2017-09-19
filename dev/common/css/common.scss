@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import "mixin";
+//-----    import Parts    ----
+	@import "_parts/_pc/_commonStyle.scss";
+	@import "_parts/_sp/_commonStyle.scss";
+	@import "_parts/_pc/_globalNav.scss";
+	@import "_parts/_sp/_globalNav.scss";
+//-----    CommonStyle    ----
+	body {
+		font-family: "M+ P Type-1 (basic latin) Light";
+	}
+	br{
+		&.pc{
+			display: block;
+		}
+		&.sp{
+			display: none;
+		}
+	}
+	@include sp{
+		br{
+			&.pc{
+				display: none;
+			}
+			&.sp{
+				display: block;
+			}
+		}
+	}

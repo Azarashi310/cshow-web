@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@import "../../common/css/mixin";
+
+//----    import Style
+#info {
+	@import "_parts/_pc/index";
+	@import "_parts/_sp/index";
+}
+//----    common Style

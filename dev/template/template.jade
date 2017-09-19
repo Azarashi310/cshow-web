@@ -1,0 +1,84 @@
+block vars
+    -var dir_root = "./"
+    -var current = ""
+    -var title = ""
+doctype
+html(lang="ja")
+    head
+        meta(charset='UTF-8')
+        meta(name="description" content="クロノルミナ - 創作物置き場")
+        meta(name="keywords" content="クロノルミナ,みょるす,みょるお,イラスト,創作")
+        title #{title}
+        link(rel='stylesheet', href='css/index.css')
+        link(rel='stylesheet', href='#{dir_root}common/css/reset.css')
+        link(rel='stylesheet', href='#{dir_root}common/css/common.css')
+        meta(name="viewport",content="width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,shrink-to-fit=no")
+        link(rel='stylesheet', type='text/css', href='http://mplus-fonts.sourceforge.jp/webfonts/basic_latin/mplus_webfonts.css')
+        link(rel='stylesheet', type='text/css', href='http://mplus-fonts.sourceforge.jp/webfonts/general-j/mplus_webfonts.css')
+        script(rel="text/javascript",src="#{dir_root}common/js/lib.js")
+        script(rel="text/javascript",src="#{dir_root}common/js/common.js")
+        block js
+    body
+        #main
+            #globalnav
+                .globalnav__button
+                    .bar.bar1
+                    .bar.bar2
+                    .bar.bar3
+                ul.globalnav__menus
+                    li.menu(class=current == "top" ? "current" : "")
+                        a.link(href="#{dir_root}")
+                            p.text トップページ
+                    li.menu(class=current == "info" ? "current" : "")
+                        case current
+                            when "top"
+                                a.link(href="#{dir_root}info/")
+                                    p.text インフォメーション
+                            when "info"
+                                a.link(href="./")
+                                    p.text インフォメーション
+                            when "works"
+                                a.link(href="#{dir_root}info/")
+                                    p.text インフォメーション
+                            when "other"
+                                a.link(href="#{dir_root}info/")
+                                    p.text インフォメーション
+                h2.globalnav__grouptitle.
+                    イラスト
+                ul.globalnav__menus
+                    li.menu(class=current == "works" ? "current" : "")
+                        case current
+                            when "top"
+                                a.link(href="#{dir_root}works/")
+                                    p.text 自作
+                            when "info"
+                                a.link(href="#{dir_root}works/")
+                                    p.text 自作
+                            when "works"
+                                a.link(href="./")
+                                    p.text 自作
+                            when "other"
+                                a.link(href="#{dir_root}works/")
+                                    p.text 自作
+                    li.menu(class=current == "other" ? "current" : "")
+                        case current
+                            when "top"
+                                a.link(href="#{dir_root}other/")
+                                    p.text 頂いたもの
+                            when "info"
+                                a.link(href="#{dir_root}other/")
+                                    p.text 頂いたもの
+                            when "works"
+                                a.link(href="#{dir_root}other/")
+                                    p.text 頂いたもの
+                            when "other"
+                                a.link(href="./")
+                                    p.text 頂いたもの
+                h2.globalnav__grouptitle.
+                    工事中
+            #contents
+                block content
+        #footer
+
+
+

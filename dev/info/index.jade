@@ -1,0 +1,46 @@
+extends ../template/template
+block vars
+    -var dir_root = "../"
+    -var current = "info"
+    -var title = "インフォメーション"
+block content
+    #info
+        h2.info__title
+            span.maintitle インフォメーション
+            span.subhead
+        .info__maincontents
+            .box
+                .intro
+                    .contents
+                        p.text.
+                            当サイトへようこそ！<br>
+                            ここは、最近webの分野に手を出した管理人：みょるおによる、<br>
+                            webページ勉強用に作られたサイトです。実験場です。<br>
+                            それのついでに、イラストを中心とした一次創作物の公開もしています。<br>
+                .sitemap
+                    .subhead
+                        p.text.
+                            サイトマップ
+                    .contents
+                        p.text.
+                            工事中
+                .profile
+                    .subhead
+                        p.text.
+                            プロフィール
+                    .contents
+                        .image
+                            img(src="images/img_1.png")
+                        p.text.autor
+                            span.name 名前
+                            span.en ：
+                            span.name みょるお
+                        p.text.description.
+                            学生時代、暇な講義を受けているときにノートの隅に書いていた<br>
+                            ラクガキが高じて創作に手を出した人。<br>
+                            最近の目標は、カッコいい男性キャラを描けるようになること。<br>
+                            なお、アイコンは自創作の主人公が持つ盾。
+                        p.text
+                            span.jp 制作環境：
+                            span.en Windows / SAI /
+                            span.jp  マウス

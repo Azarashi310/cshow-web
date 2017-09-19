@@ -1,0 +1,52 @@
+@include sp{
+	.top__title {
+		padding: 0 0 14px 0;
+		span {
+			&.maintitle {
+				display: block;
+				font-size: 30px;
+			}
+			&.subhead {
+				display: block;
+				padding: 10px 0 0 0;
+				@include font-light();
+				font-size: 16px;
+			}
+		}
+	}
+	.top__diary {
+		.top__diary__title{
+			margin: 12px 0 0 0;
+			padding: 0 0 0 16px;
+			height: auto;
+			width: auto;
+			background-color: lightsteelblue;
+			color: #000;
+			font-size: 20px;
+			line-height: 28px;
+			@include font-reguler();
+			font-weight: lighter;
+		}
+		.box {
+			margin: 24px 0 0 0;
+			width: auto;
+			@include font-bold();
+		}
+		.title {
+			width: auto;
+			padding: 4px 0 3px 24px;
+			font-size: 18px;
+			border: solid 1px lightsteelblue;
+			line-height: 30px;
+			background-color: lightsteelblue;
+		}
+		.contents {
+			padding: 4px 8px 4px 8px;
+			font-size: 16px;
+			border: solid 1px lightsteelblue;
+			line-height: 30px;
+			background-color: lightcyan;
+			@include font-reguler();
+		}
+	}
+}

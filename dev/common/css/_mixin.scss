@@ -1,0 +1,26 @@
+@mixin clearfix {
+  zoom: 1;
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin sp() {
+  @media screen and (max-width: 640px){
+    @content;
+  }
+}
+
+@mixin font-light{
+  font-family: "M+ Type-1 (general-j) Light";
+}
+
+@mixin font-reguler{
+  font-family: "M+ Type-1 (general-j) Regular";
+}
+
+@mixin font-bold{
+  font-family: "M+ P Type-1 (basic latin) Bold";
+}

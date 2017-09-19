@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@include sp(){
+	//----   ここにSP用のスタイル適用する
+	iframe{
+		display: none !important;
+	}
+	#main {
+		width: 100%;
+		min-height: 480px;
+		min-width:auto;
+		margin: 0 auto;
+		padding: 30px 0 0 0;
+		overflow: hidden;
+		position: relative;
+		@include clearfix;
+		&.open{
+			overflow: visible;
+		}
+	}
+	#contents {
+		width: 300px;
+		float: none;
+		padding: 0 0 0 0px;
+		margin:0 auto;
+	}
+}

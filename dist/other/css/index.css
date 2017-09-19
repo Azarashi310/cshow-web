@@ -1,0 +1,120 @@
+#other .other__title {
+	padding: 0 0 14px 0;
+	font-family: "M+ Type-1 (general-j) Light";
+}
+
+#other .other__title span.maintitle {
+	display: block;
+	font-size: 40px;
+}
+
+#other .other__title span.subhead {
+	display: block;
+	padding: 18px 0 0 10px;
+}
+
+#other .other__maincontents {
+	margin: 40px;
+}
+
+#other .other__maincontents .text {
+	font-size: 22px;
+}
+
+#other .other__maincontents .text span.en {
+	font-family: "M+ P Type-1 (basic latin) Regular";
+}
+
+#other .other__maincontents .text span.jp {
+	font-family: "M+ Type-1 (general-j) Regular";
+}
+
+#other .other__maincontents .lists {
+	margin: 0 auto;
+	width: 672px;
+	overflow: auto;
+}
+
+#other .other__maincontents .lists .list {
+	list-style: none;
+	float: left;
+	margin: 28px;
+	border: solid #000 1px;
+	font-size: 0;
+	-webkit-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+}
+
+#other .other__maincontents .lists .list:hover {
+	opacity: 0.6;
+}
+
+#other .other__maincontents .lists .list .link {
+	display: block;
+}
+
+@media screen and (max-width: 640px) {
+
+#other .other__title {
+	margin: 0 0 0 10px;
+	padding: 0;
+	font-family: "M+ Type-1 (general-j) Light";
+}
+
+#other .other__title span.maintitle {
+	display: block;
+	font-size: 30px;
+}
+
+#other .other__title span.subhead {
+	display: block;
+	padding: 10px 0 0 0;
+}
+
+#other .other__maincontents {
+	margin: 0 0 40px 0;
+}
+
+#other .other__maincontents .text {
+	margin: 14px 10px 10px 10px;
+	font-size: 16px;
+}
+
+#other .other__maincontents .text span.en {
+	font-family: "M+ P Type-1 (basic latin) Regular";
+}
+
+#other .other__maincontents .text span.jp {
+	font-family: "M+ Type-1 (general-j) Regular";
+}
+
+#other .other__maincontents .lists {
+	margin: 10px auto;
+	width: 300px;
+	overflow: auto;
+}
+
+#other .other__maincontents .lists .list {
+	list-style: none;
+	float: left;
+	margin: 10px;
+	border: solid #000 1px;
+	font-size: 0;
+	-webkit-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+}
+
+#other .other__maincontents .lists .list:hover {
+	opacity: 0.6;
+}
+
+#other .other__maincontents .lists .list .link {
+	display: block;
+}
+
+}
+

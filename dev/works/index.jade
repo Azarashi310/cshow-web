@@ -1,0 +1,17 @@
+extends ../template/template
+block vars
+   -var dir_root = "../"
+   -var current = "works"
+   -var title = "自作"
+block content
+   #works
+      h2.works__title
+         span.maintitle 自作絵
+         span.subhead 準備中の物が多いです。
+      .works__maincontents
+         ul.lists
+            - for (var i = 1; i < 5; i++) {
+            li.list
+               a.link(href="images/image_" + "#{i}" + ".png", target="_blank")
+                  img(src="images/thum_" + "#{i}" + ".png")
+               - }

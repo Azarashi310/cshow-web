@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@include sp{
+	//--- グローバルナビのサイズを変えたい場合はここを変える
+	$globalNav_size:270px;
+	#globalnav {
+		width: $globalNav_size;
+		float: none;
+		display: block;
+		position: absolute;
+		right:-($globalNav_size);
+		top:0;
+		box-sizing: border-box;
+		border:solid 1px #B0C4DE;
+	}
+	.globalnav__button{
+		display: block;
+		width:24px;
+		height:24px;
+		position: fixed;
+		top:15px;
+		right:15px;
+		.bar{
+			border-top:2px solid #000;
+			position: absolute;
+			width:20px;
+			left:2px;
+			&.bar1{
+				top:4px;
+			}
+			&.bar2{
+				top:10px;
+			}
+			&.bar3{
+				top:16px;
+			}
+		}
+	}
+	.menu {
+		list-style: none;
+		line-height: 40px;
+		&.current {
+			&:hover {
+				background-color: lightsteelblue;
+			}
+			background-color: lightsteelblue;
+			.link {
+				color: #ffffff;
+			}
+		}
+		&:hover {
+			background-color: rgba(0, 0, 0, 0.05);
+		}
+		.link {
+			display: block;
+			text-decoration: none;
+			color: #000;
+		}
+		.text {
+			padding: 0 0 0 2em;
+		}
+	}
+	.globalnav__grouptitle {
+		line-height: 40px;
+		padding: 10px 0 0 1em;
+		font-size: 18px;
+		position: relative;
+		&:before{
+			content: '■';
+			font-size:18px;
+			position: absolute;
+			left: 0;
+			top:11px;
+			color:#85b7f7;
+		}
+	}
+}

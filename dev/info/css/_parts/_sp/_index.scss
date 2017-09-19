@@ -1,0 +1,69 @@
+@include sp {
+	.info__title {
+		span {
+			&.maintitle {
+				display: block;
+				font-size: 30px;
+				font-family: "M+ Type-1 (general-j) Regular";
+			}
+			&.subhead {
+				display: block;
+				padding: 28px 0 0 0;
+			}
+		}
+	}
+
+	.info__maincontents {
+		margin: 0 0 10px 0;
+		.box {
+			margin: 0;
+			width: 300px;
+			box-sizing: border-box;
+			border: solid lightsteelblue 2px;
+			background-color: rgba(0, 0, 0, 0.05);
+			.contents {
+				padding: 26px 0 26px 0;
+				text-align: center;
+				.text {
+					line-height: 1.6;
+					font-size: 13px;
+					span {
+						&.en {
+							font-family: "M+ P Type-1 (basic latin) Regular";
+						}
+						&.jp {
+							font-family: "M+ Type-1 (general-j) Regular";
+						}
+					}
+					&.autor {
+						padding: 0 0 10px 0;
+						font-size: 16px;
+						.name {
+							font-size: 20px;
+						}
+					}
+					&.description {
+						padding: 0 10px 10px 10px;
+						text-align: left;
+						font-size: 13px;
+					}
+				}
+				.image {
+					margin: 0 0 6px 0;
+				}
+			}
+			.subhead {
+				margin: 0 auto;
+				width: 100%;
+				height: 28px;
+				background-color: lightsteelblue;
+				line-height: 28px;
+				font-size: 20px;
+				.text {
+					color: #FFF;
+					padding: 0 16px;
+				}
+			}
+		}
+	}
+}

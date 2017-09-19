@@ -1,0 +1,49 @@
+.top__title {
+	padding: 0 0 14px 0;
+	span {
+		&.maintitle {
+			display: block;
+			font-size: 40px;
+		}
+		&.subhead {
+			display: block;
+			padding: 18px 0 0 0;
+			@include font-light();
+		}
+	}
+}
+.top__diary {
+	.top__diary__title{
+		margin: 50px 0 40px 0;
+		padding: 0 0 0 16px;
+		height: 28px;
+		width: 664px;
+		background-color: lightsteelblue;
+		color: #000;
+		font-size: 20px;
+		line-height: 28px;
+		@include font-reguler();
+		font-weight: lighter;
+	}
+	.box {
+		margin: 30px 0 0 0;
+		width: 680px;
+		@include font-bold();
+	}
+	.title {
+		width: 280px;
+		padding: 4px 0 3px 24px;
+		font-size: 18px;
+		border: solid 1px lightsteelblue;
+		line-height: 30px;
+		background-color: lightsteelblue;
+	}
+	.contents {
+		padding: 4px 8px 4px 8px;
+		font-size: 16px;
+		border: solid 1px lightsteelblue;
+		line-height: 30px;
+		background-color: lightcyan;
+		@include font-reguler();
+	}
+}

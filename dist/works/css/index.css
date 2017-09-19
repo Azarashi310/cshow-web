@@ -1,0 +1,87 @@
+#works .works__title {
+	padding: 0 0 14px 0;
+	font-family: "M+ Type-1 (general-j) Light";
+}
+
+#works .works__title span.maintitle {
+	display: block;
+	font-size: 40px;
+}
+
+#works .works__title span.subhead {
+	display: block;
+	padding: 18px 0 0 10px;
+}
+
+#works .works__maincontents .lists {
+	margin: 40px auto;
+	width: 672px;
+	overflow: auto;
+}
+
+#works .works__maincontents .lists .list {
+	list-style: none;
+	float: left;
+	margin: 28px;
+	border: solid #000 1px;
+	font-size: 0;
+	-webkit-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+}
+
+#works .works__maincontents .lists .list:hover {
+	opacity: 0.6;
+}
+
+#works .works__maincontents .lists .list .link {
+	display: block;
+}
+
+@media screen and (max-width: 640px) {
+
+#works .works__title {
+	margin: 0 0 0 10px;
+	padding: 0 0 0 0;
+	font-family: "M+ Type-1 (general-j) Light";
+}
+
+#works .works__title span.maintitle {
+	display: block;
+	font-size: 30px;
+}
+
+#works .works__title span.subhead {
+	display: block;
+	padding: 10px 0 0 0px;
+}
+
+#works .works__maincontents .lists {
+	margin: 40px auto;
+	width: 300px;
+	overflow: auto;
+}
+
+#works .works__maincontents .lists .list {
+	list-style: none;
+	float: left;
+	margin: 10px;
+	border: solid #000 1px;
+	font-size: 0;
+	-webkit-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+}
+
+#works .works__maincontents .lists .list:hover {
+	opacity: 0.6;
+}
+
+#works .works__maincontents .lists .list .link {
+	display: block;
+}
+
+}
+

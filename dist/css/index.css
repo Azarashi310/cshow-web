@@ -1,0 +1,109 @@
+#top .top__title {
+	padding: 0 0 14px 0;
+}
+
+#top .top__title span.maintitle {
+	display: block;
+	font-size: 40px;
+}
+
+#top .top__title span.subhead {
+	display: block;
+	padding: 18px 0 0 0;
+	font-family: "M+ Type-1 (general-j) Light";
+}
+
+#top .top__diary .top__diary__title {
+	margin: 50px 0 40px 0;
+	padding: 0 0 0 16px;
+	height: 28px;
+	width: 664px;
+	background-color: lightsteelblue;
+	color: #000;
+	font-size: 20px;
+	line-height: 28px;
+	font-family: "M+ Type-1 (general-j) Regular";
+	font-weight: lighter;
+}
+
+#top .top__diary .box {
+	margin: 30px 0 0 0;
+	width: 680px;
+	font-family: "M+ P Type-1 (basic latin) Bold";
+}
+
+#top .top__diary .title {
+	width: 280px;
+	padding: 4px 0 3px 24px;
+	font-size: 18px;
+	border: solid 1px lightsteelblue;
+	line-height: 30px;
+	background-color: lightsteelblue;
+}
+
+#top .top__diary .contents {
+	padding: 4px 8px 4px 8px;
+	font-size: 16px;
+	border: solid 1px lightsteelblue;
+	line-height: 30px;
+	background-color: lightcyan;
+	font-family: "M+ Type-1 (general-j) Regular";
+}
+
+@media screen and (max-width: 640px) {
+
+#top .top__title {
+	padding: 0 0 14px 0;
+}
+
+#top .top__title span.maintitle {
+	display: block;
+	font-size: 30px;
+}
+
+#top .top__title span.subhead {
+	display: block;
+	padding: 10px 0 0 0;
+	font-family: "M+ Type-1 (general-j) Light";
+	font-size: 16px;
+}
+
+#top .top__diary .top__diary__title {
+	margin: 12px 0 0 0;
+	padding: 0 0 0 16px;
+	height: auto;
+	width: auto;
+	background-color: lightsteelblue;
+	color: #000;
+	font-size: 20px;
+	line-height: 28px;
+	font-family: "M+ Type-1 (general-j) Regular";
+	font-weight: lighter;
+}
+
+#top .top__diary .box {
+	margin: 24px 0 0 0;
+	width: auto;
+	font-family: "M+ P Type-1 (basic latin) Bold";
+}
+
+#top .top__diary .title {
+	width: auto;
+	padding: 4px 0 3px 24px;
+	font-size: 18px;
+	border: solid 1px lightsteelblue;
+	line-height: 30px;
+	background-color: lightsteelblue;
+}
+
+#top .top__diary .contents {
+	padding: 4px 8px 4px 8px;
+	font-size: 16px;
+	border: solid 1px lightsteelblue;
+	line-height: 30px;
+	background-color: lightcyan;
+	font-family: "M+ Type-1 (general-j) Regular";
+}
+
+}
+

@@ -1,0 +1,52 @@
+@include sp {
+	.other__title {
+		margin: 0 0 0 10px;
+		padding: 0;
+		font-family: "M+ Type-1 (general-j) Light";
+		span {
+			&.maintitle {
+				display: block;
+				font-size: 30px;
+			}
+			&.subhead {
+				display: block;
+				padding: 10px 0 0 0;
+			}
+		}
+	}
+
+	.other__maincontents {
+		margin: 0 0 40px 0;
+		.text {
+			margin: 14px 10px 10px 10px;
+			font-size: 16px;
+			span {
+				&.en {
+					font-family: "M+ P Type-1 (basic latin) Regular";
+				}
+				&.jp {
+					font-family: "M+ Type-1 (general-j) Regular";
+				}
+			}
+		}
+		.lists {
+			margin: 10px auto ; //要素を中央寄せにするときのマージン（縦0横auto)
+			width: 300px; //横幅
+			overflow: auto; //リストにフロートを掛けた場合の対策（高さが無くなる）
+			.list {
+				list-style: none;
+				float: left; //要素を左寄せ配置にする
+				margin: 10px;
+				border: solid #000 1px;
+				font-size: 0;
+				transition: opacity 0.5s ease; //オパシティを0.5秒かけてアニメーションさせるトランジション（ease=アニメーションの種類
+				&:hover {
+					opacity: 0.6; //要素にマウスを乗せた時の挙動=透明度60%;
+				}
+				.link {
+					display: block;
+				}
+			}
+		}
+	}
+}
